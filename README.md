@@ -1,12 +1,10 @@
 s3-up
 ========
 
-> File system and globbing utilities
+> Uploads compiled assets to Amazon S3
 
 [![NPM version](https://img.shields.io/npm/v/s3-up.svg)](https://www.npmjs.com/package/s3-up)
 [![NPM downloads](https://img.shields.io/npm/dm/s3-up.svg)](https://www.npmjs.com/package/s3-up)
-[![Build Status](https://travis-ci.org/d-band/s3-up.svg?branch=master)](https://travis-ci.org/d-band/s3-up)
-[![Coverage Status](https://coveralls.io/repos/github/d-band/s3-up/badge.svg?branch=master)](https://coveralls.io/github/d-band/s3-up?branch=master)
 [![Dependency Status](https://david-dm.org/d-band/s3-up.svg)](https://david-dm.org/d-band/s3-up)
 [![Greenkeeper badge](https://badges.greenkeeper.io/d-band/s3-up.svg)](https://greenkeeper.io/)
 

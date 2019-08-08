@@ -1,0 +1,12 @@
+.idea
+.DS_Store
+.nyc_output/
+.babelrc
+.editorconfig
+.eslintrc
+.travis.yml
+tmp
+node_modules
+package-lock.json
+coverage
+test

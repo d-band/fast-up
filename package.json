@@ -1,0 +1,63 @@
+{
+  "name": "s3-up",
+  "version": "1.0.0",
+  "description": "Uploads compiled assets to Amazon S3",
+  "main": "lib/index.js",
+  "bin": {
+    "up": "cli.js"
+  },
+  "scripts": {
+    "lint": "eslint lib cli.js",
+    "test": "nyc mocha",
+    "report": "nyc report --reporter=html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "nyc": {
+    "all": true,
+    "include": [
+      "lib/**/*.js"
+    ]
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-band/s3-up.git"
+  },
+  "keywords": [
+    "s3",
+    "glob",
+    "aws",
+    "deploy",
+    "upload",
+    "batch"
+  ],
+  "author": "d-band",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/d-band/s3-up/issues"
+  },
+  "homepage": "https://github.com/d-band/s3-up#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "micro-fs": "^1.0.2",
+    "minio": "^7.0.11",
+    "ora": "^3.4.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.5",
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "pre-commit": "^1.2.2"
+  }
+}

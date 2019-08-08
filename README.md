@@ -1,19 +1,19 @@
-s3-up
-========
+fast-up
+=======
 
 > Uploads compiled assets to Amazon S3
 
-[![NPM version](https://img.shields.io/npm/v/s3-up.svg)](https://www.npmjs.com/package/s3-up)
-[![NPM downloads](https://img.shields.io/npm/dm/s3-up.svg)](https://www.npmjs.com/package/s3-up)
-[![Dependency Status](https://david-dm.org/d-band/s3-up.svg)](https://david-dm.org/d-band/s3-up)
-[![Greenkeeper badge](https://badges.greenkeeper.io/d-band/s3-up.svg)](https://greenkeeper.io/)
+[![NPM version](https://img.shields.io/npm/v/fast-up.svg)](https://www.npmjs.com/package/fast-up)
+[![NPM downloads](https://img.shields.io/npm/dm/fast-up.svg)](https://www.npmjs.com/package/fast-up)
+[![Dependency Status](https://david-dm.org/d-band/fast-up.svg)](https://david-dm.org/d-band/fast-up)
+[![Greenkeeper badge](https://badges.greenkeeper.io/d-band/fast-up.svg)](https://greenkeeper.io/)
 
 ---
 
 ## Install
 
 ```bash
-$ npm install s3-up -D
+$ npm install fast-up -D
 ```
 
 ## Usage
@@ -70,9 +70,9 @@ module.exports = {
 
 ## Report a issue
 
-* [All issues](https://github.com/d-band/s3-up/issues)
-* [New issue](https://github.com/d-band/s3-up/issues/new)
+* [All issues](https://github.com/d-band/fast-up/issues)
+* [New issue](https://github.com/d-band/fast-up/issues/new)
 
 ## License
 
-s3-up is available under the terms of the MIT License.
+fast-up is available under the terms of the MIT License.

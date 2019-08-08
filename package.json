@@ -1,5 +1,5 @@
 {
-  "name": "s3-up",
+  "name": "fast-up",
   "version": "1.0.0",
   "description": "Uploads compiled assets to Amazon S3",
   "main": "lib/index.js",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/d-band/s3-up.git"
+    "url": "git+https://github.com/d-band/fast-up.git"
   },
   "keywords": [
     "s3",
@@ -39,9 +39,9 @@
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/d-band/s3-up/issues"
+    "url": "https://github.com/d-band/fast-up/issues"
   },
-  "homepage": "https://github.com/d-band/s3-up#readme",
+  "homepage": "https://github.com/d-band/fast-up#readme",
   "dependencies": {
     "commander": "^2.20.0",
     "micro-fs": "^1.0.2",

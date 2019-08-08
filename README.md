@@ -13,7 +13,7 @@ fast-up
 ## Install
 
 ```bash
-$ npm install fast-up -D
+$ npm install fast-up -g
 ```
 
 ## Usage

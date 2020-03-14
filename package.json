@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/d-band/fast-up#readme",
   "dependencies": {
-    "commander": "^4.1.1",
+    "commander": "^5.0.0",
     "micro-fs": "^1.0.3",
     "minio": "^7.0.13",
     "ora": "^4.0.3"

@@ -14,6 +14,7 @@ program
   .option('--host [host]', 'S3 endpoint host')
   .option('--base [base]', 'base path for dist')
   .option('--prefix [prefix]', 'object path prefix')
+  .option('--dry-run', 'do everything without actually uploading')
   .parse(process.argv);
 
 require('./lib')(program).then(() => {
